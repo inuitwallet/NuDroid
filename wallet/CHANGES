@@ -1,3 +1,9 @@
+v4.5
+
+* Change paths to com.nubits
+* Replace Anton with Daio trusted server
+* Update DNS Seed in Nubitsj
+
 v4.4
 
 * Added support for py-nugetfee and therefore Nu 2.0 dynamic transaction fees. Nu 3.0 may 

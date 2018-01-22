@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.matthewmitchell.nubits_android_wallet.integration.sample;
+package com.nubits.android_wallet.integration.sample;
 
 import org.nubits.protocols.payments.Protos;
 
@@ -31,13 +31,13 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.matthewmitchell.nubitsj.core.Address;
-import com.matthewmitchell.nubitsj.core.AddressFormatException;
-import com.matthewmitchell.nubitsj.core.NetworkParameters;
-import com.matthewmitchell.nubitsj.script.ScriptBuilder;
+import com.nubits.nubitsj.core.Address;
+import com.nubits.nubitsj.core.AddressFormatException;
+import com.nubits.nubitsj.core.NetworkParameters;
+import com.nubits.nubitsj.script.ScriptBuilder;
 import com.google.protobuf.ByteString;
 
-import com.matthewmitchell.nubits_android_wallet.integration.android.NubitsIntegration;
+import com.nubits.android_wallet.integration.android.NubitsIntegration;
 
 /**
  * @author Andreas Schildbach

@@ -9,7 +9,7 @@
     <name>NuBits Integration for Android</name>
 
     <parent>
-        <groupId>com.matthewmitchell.nubits_android_wallet</groupId>
+        <groupId>com.nubits.android_wallet</groupId>
         <artifactId>base</artifactId>
         <version>4.4</version>
     </parent>

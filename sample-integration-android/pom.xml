@@ -10,7 +10,7 @@
     <name>Sample for NuBits Integration for Android</name>
 
     <parent>
-        <groupId>com.matthewmitchell.nubits_android_wallet</groupId>
+        <groupId>com.nubits.android_wallet</groupId>
         <artifactId>base</artifactId>
         <version>1</version>
     </parent>
@@ -25,8 +25,8 @@
 
     <repositories>
         <repository>
-            <id>local</id>
-            <url>file://${project.basedir}/../../nubitsj/core/target/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
@@ -41,18 +41,18 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- com.matthewmitchell.nubits_android_wallet.integration.android.* -->
+        <!-- com.nubits.android_wallet.integration.android.* -->
         <dependency>
-            <groupId>com.matthewmitchell.nubits_android_wallet</groupId>
+            <groupId>com.nubits.android_wallet</groupId>
             <artifactId>integration-android</artifactId>
             <version>2.2</version>
         </dependency>
 
-        <!-- com.matthewmitchell.nubitsj.* -->
+        <!-- nubitsj.* -->
         <dependency>
-            <groupId>com.matthewmitchell</groupId>
+            <groupId>com.github.inuitwallet.NuBitsj</groupId>
             <artifactId>nubitsj</artifactId>
-            <version>0.14.4</version>
+            <version>0.14.6</version>
         </dependency>
 
         <dependency>

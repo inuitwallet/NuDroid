@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.matthewmitchell.nubits_android_wallet"
+    package="com.nubits.android_wallet"
     android:installLocation="internalOnly"
     android:versionCode="12"
     android:versionName="4.4" >
@@ -54,19 +54,19 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="com.matthewmitchell.nubits_android_wallet.WalletApplication"
+        android:name="com.nubits.android_wallet.WalletApplication"
         android:allowBackup="false"
         android:icon="@drawable/app_icon"
         android:label="@string/app_name"
         android:theme="@style/My.Theme">
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.WalletActivity"
+            android:name="com.nubits.android_wallet.ui.WalletActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:launchMode="singleTask" />
 
         <activity-alias
-            android:name="com.matthewmitchell.nubits_android_wallet.WalletActivity"
-            android:targetActivity="com.matthewmitchell.nubits_android_wallet.ui.WalletActivity" >
+            android:name="com.nubits.android_wallet.WalletActivity"
+            android:targetActivity="com.nubits.android_wallet.ui.WalletActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -82,7 +82,7 @@
         </activity-alias>
 
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.send.SendCoinsActivity"
+            android:name="com.nubits.android_wallet.ui.send.SendCoinsActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/send_coins_activity_title"
             android:screenOrientation="behind"
@@ -148,41 +148,41 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.SendCoinsQrActivity"
+            android:name="com.nubits.android_wallet.ui.SendCoinsQrActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.RequestCoinsActivity"
+            android:name="com.nubits.android_wallet.ui.RequestCoinsActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/request_coins_activity_title"
             android:screenOrientation="behind"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.AddressBookActivity"
+            android:name="com.nubits.android_wallet.ui.AddressBookActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/address_book_activity_title"
             android:screenOrientation="behind" />
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.ExchangeRatesActivity"
+            android:name="com.nubits.android_wallet.ui.ExchangeRatesActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/exchange_rates_activity_title"
             android:screenOrientation="behind" />
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.NetworkMonitorActivity"
+            android:name="com.nubits.android_wallet.ui.NetworkMonitorActivity"
             android:configChanges="keyboard|keyboardHidden"
             android:label="@string/network_monitor_activity_title"
             android:screenOrientation="behind" />
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.preference.PreferenceActivity"
+            android:name="com.nubits.android_wallet.ui.preference.PreferenceActivity"
             android:label="@string/preferences_activity_title"
             android:screenOrientation="behind" />
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.preference.TrustedServersActivity"
+            android:name="com.nubits.android_wallet.ui.preference.TrustedServersActivity"
             android:label="@string/preferences_category_trusted_servers"
             android:screenOrientation="behind" />
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.RestoreWalletActivity"
+            android:name="com.nubits.android_wallet.ui.RestoreWalletActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
             android:theme="@style/My.Theme.Dialog" >
             <intent-filter android:label="@string/import_keys_intent_filter_action" >
@@ -195,7 +195,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.matthewmitchell.nubits_android_wallet.ui.ScanActivity"
+            android:name="com.nubits.android_wallet.ui.ScanActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
             android:screenOrientation="landscape"
             android:stateNotNeeded="true"
@@ -203,21 +203,21 @@
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <provider
-            android:name="com.matthewmitchell.nubits_android_wallet.AddressBookProvider"
-            android:authorities="com.matthewmitchell.nubits_android_wallet.address_book"
+            android:name="com.nubits.android_wallet.AddressBookProvider"
+            android:authorities="com.nubits.android_wallet.address_book"
             android:exported="false" />
         <provider
-            android:name="com.matthewmitchell.nubits_android_wallet.ExchangeRatesProvider"
-            android:authorities="com.matthewmitchell.nubits_android_wallet.exchange_rates"
+            android:name="com.nubits.android_wallet.ExchangeRatesProvider"
+            android:authorities="com.nubits.android_wallet.exchange_rates"
             android:exported="false" />
         <provider
-            android:name="com.matthewmitchell.nubits_android_wallet.FileAttachmentProvider"
-            android:authorities="com.matthewmitchell.nubits_android_wallet.file_attachment"
+            android:name="com.nubits.android_wallet.FileAttachmentProvider"
+            android:authorities="com.nubits.android_wallet.file_attachment"
             android:exported="false"
             android:grantUriPermissions="true" />
 
         <receiver
-            android:name="com.matthewmitchell.nubits_android_wallet.WalletBalanceWidgetProvider"
+            android:name="com.nubits.android_wallet.WalletBalanceWidgetProvider"
             android:label="NuBits Wallet Balance" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -229,13 +229,13 @@
         </receiver>
 
         <service
-            android:name="com.matthewmitchell.nubits_android_wallet.service.BlockchainServiceImpl"
+            android:name="com.nubits.android_wallet.service.BlockchainServiceImpl"
             android:exported="false" />
         <service
-            android:name="com.matthewmitchell.nubits_android_wallet.offline.AcceptBluetoothService"
+            android:name="com.nubits.android_wallet.offline.AcceptBluetoothService"
             android:exported="false" />
 
-        <receiver android:name="com.matthewmitchell.nubits_android_wallet.service.AutosyncReceiver" >
+        <receiver android:name="com.nubits.android_wallet.service.AutosyncReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -245,7 +245,7 @@
         </receiver>
 
         <service
-            android:name="com.matthewmitchell.nubits_android_wallet.service.UpgradeWalletService"
+            android:name="com.nubits.android_wallet.service.UpgradeWalletService"
             android:exported="false" />
 
         <meta-data

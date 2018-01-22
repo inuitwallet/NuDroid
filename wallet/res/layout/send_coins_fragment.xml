@@ -155,7 +155,7 @@
         android:showDividers="middle"
         android:visibility="gone" >
 
-        <com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView
+        <com.nubits.android_wallet.ui.CurrencyAmountView
             android:id="@+id/send_coins_shapeshift_foreign"
             android:layout_width="0px"
             android:layout_height="wrap_content"
@@ -168,9 +168,9 @@
                 android:imeOptions="flagNoExtractUi"
                 android:textSize="@dimen/font_size_large"
                 tools:ignore="TextFields" />
-        </com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView>
+        </com.nubits.android_wallet.ui.CurrencyAmountView>
 
-        <com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView
+        <com.nubits.android_wallet.ui.CurrencyAmountView
             android:id="@+id/send_coins_shapeshift_rate"
             android:layout_width="0px"
             android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
                 tools:ignore="TextFields"
                 android:enabled="false"
                 android:focusable="false" />
-        </com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView>
+        </com.nubits.android_wallet.ui.CurrencyAmountView>
     </LinearLayout>
 
     <TextView
@@ -207,7 +207,7 @@
         android:orientation="horizontal"
         android:showDividers="middle" >
 
-        <com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView
+        <com.nubits.android_wallet.ui.CurrencyAmountView
             android:id="@+id/send_coins_amount_nbt"
             android:layout_width="0px"
             android:layout_height="wrap_content"
@@ -220,9 +220,9 @@
                 android:imeOptions="flagNoExtractUi"
                 android:textSize="@dimen/font_size_large"
                 tools:ignore="TextFields" />
-        </com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView>
+        </com.nubits.android_wallet.ui.CurrencyAmountView>
 
-        <com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView
+        <com.nubits.android_wallet.ui.CurrencyAmountView
             android:id="@+id/send_coins_amount_local"
             android:layout_width="0px"
             android:layout_height="wrap_content"
@@ -235,7 +235,7 @@
                 android:imeOptions="flagNoExtractUi"
                 android:textSize="@dimen/font_size_large"
                 tools:ignore="TextFields" />
-        </com.matthewmitchell.nubits_android_wallet.ui.CurrencyAmountView>
+        </com.nubits.android_wallet.ui.CurrencyAmountView>
     </LinearLayout>
 
     <CheckBox

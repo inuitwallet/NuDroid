@@ -49,7 +49,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.matthewmitchell.nubits_android_wallet.R;
+import com.nubits.android_wallet.R;
 
 /**
  * ListView subclass that mediates drag and drop resorting of items.

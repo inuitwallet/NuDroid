@@ -6,11 +6,11 @@
 
     <artifactId>wallet</artifactId>
     <packaging>apk</packaging>
-    <version>4.4</version>
+    <version>4.5</version>
     <name>NuBits Wallet</name>
 
     <parent>
-        <groupId>com.matthewmitchell.nubits_android_wallet</groupId>
+        <groupId>com.nubits.android_wallet</groupId>
         <artifactId>base</artifactId>
         <version>4.4</version>
     </parent>
@@ -26,8 +26,8 @@
     <repositories>
 
         <repository>
-            <id>local</id>
-            <url>file://${project.basedir}/../../nubitsj/core/target/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
 
         <repository>
@@ -69,16 +69,16 @@
             <version>19.1.0</version>
         </dependency>
 
-        <!-- com.matthewmitchell.nubitsj.* -->
+        <!-- nubitsj.* -->
         <dependency>
-            <groupId>com.matthewmitchell</groupId>
+            <groupId>com.github.inuitwallet.NuBitsj</groupId>
             <artifactId>nubitsj</artifactId>
-            <version>0.14.4</version>
-        </dependency> 
+            <version>0.14.6</version>
+        </dependency>
 
-        <!-- com.matthewmitchell.nubits_android_wallet.integration.android.* -->
+        <!-- com.nubits.android_wallet.integration.android.* -->
         <dependency>
-            <groupId>com.matthewmitchell.nubits_android_wallet</groupId>
+            <groupId>com.nubits.android_wallet</groupId>
             <artifactId>integration-android</artifactId>
             <version>4.4</version>
             <scope>system</scope>
@@ -301,7 +301,7 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>2.5.2</version>
                 <configuration>
-                    <onlyAnalyze>com.matthewmitchell.nubits_android_wallet.-</onlyAnalyze>
+                    <onlyAnalyze>com.nubits.android_wallet.-</onlyAnalyze>
                 </configuration>
             </plugin>
         </plugins>

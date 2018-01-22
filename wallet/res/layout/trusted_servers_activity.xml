@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/trusted_servers_fragment"
-        android:name="com.matthewmitchell.nubits_android_wallet.ui.preference.TrustedServersFragment"
+        android:name="com.nubits.android_wallet.ui.preference.TrustedServersFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

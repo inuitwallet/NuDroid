@@ -311,13 +311,13 @@
     <string name="failed_all_servers">All trusted servers failed.</string>
 
     <string name="trusted_servers_default_explorer">Default - Explorer</string>
-    <string name="trusted_servers_default_anton">Default - Anton</string>
+    <string name="trusted_servers_default_daio">Default - Crypto Daio</string>
 
-    <string name="trusted_servers_add_anton_title">Update Servers</string>
-    <string name="trusted_servers_add_anton_message">This update comes with a new default trusted server. Would you like to add it to your existing list?</string>
+    <string name="trusted_servers_add_daio_title">Update Servers</string>
+    <string name="trusted_servers_add_daio_message">This update comes with a new default trusted server. Would you like to add it to your existing list?</string>
 
-    <string name="trusted_servers_add_anton_done_title">Updated</string>
-    <string name="trusted_servers_add_anton_done_message">The new server has been added. You can go to Settings -> Trusted Servers to view the current server list.</string>
+    <string name="trusted_servers_add_daio_done_title">Updated</string>
+    <string name="trusted_servers_add_daio_done_message">The new server has been added. You can go to Settings -> Trusted Servers to view the current server list.</string>
 
 </resources>
 
