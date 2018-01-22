@@ -10,3 +10,4 @@ target/
 Session.vim
 *.keystore
 tags
+wallet/build
